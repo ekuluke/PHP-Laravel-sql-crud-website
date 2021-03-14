@@ -1,0 +1,138 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.error-msg {
+  color: red;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  display: block;
+ }
+
+.navbar {
+  position: relative;
+  align-items: center;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box
+}
+.content-title {
+  padding: 20px 0px 0px 20px;
+  font-size: 45px;
+
+}
+td a { 
+  display: block; 
+  color: black;
+}
+
+#form-group-about {
+  min-width: 50%;
+  min-height: 600px;
+}
+#nav-menu {
+  margin-left: 150px;
+  margin-right: 1200px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  background-color: rgb(81, 102, 117);
+  border-radius: 0px;
+}
+
+ul .game-list-record-light  { /* applied to all children elements */
+  margin: 25px 75px 25px 75px;
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(162, 174, 182);
+  /*height: 200px;*/
+}
+
+ul .game-list-record-dark * {
+  margin: 25px 75px 25px 75px;
+  background-color: #688e91;
+  height: 200px;
+}
+
+.game-list-image {
+  width: 40px;
+  height: 40px;
+}
+
+.game-detail-image {
+  width: 400px;
+  height: 400px;
+
+}
+
+
+
+
+#page-header {
+    background-color: #7f9a9c;
+}
+
+.nav-link {
+    color: white;
+    border-right-style: solid;
+    border-right-color: #7f9a9c;
+    border-right-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(46, 87, 104);
+    border-bottom-width: 3px;
+    border-radius: 0px;
+    
+}
+
+input.crud {
+  width: min-content;
+  display: inline-flex;
+}
+
+
+
+.nav-pills .nav-link {
+    border-radius: 0rem;
+    padding: 1px 5px 1px 5px;
+}
+
+.nav-menu-text {
+  font-family: 'Share Tech Mono', monospace;
+  line-height: 1.0;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+#triangle-bottomright {
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid grey;
+      border-left: 100px solid transparent;
+    }
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid grey;
+    border-right: 100px solid transparent;
+    }
+
+
+  /*font-family: 'Roboto', sans-serif;*/
